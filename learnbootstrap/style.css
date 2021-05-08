@@ -1,0 +1,15 @@
+.heroText {
+  font-size: 150px;
+}
+
+@media (max-width: 809px) {
+  .heroText {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 435px) {
+  .heroText {
+    font-size: 25px;
+  }
+}

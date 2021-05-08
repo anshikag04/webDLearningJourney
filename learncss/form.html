@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="names">
+            <div class="form-group">
+            <label for="first-name">First Name : </label>
+            <input type="text" placeholder="First Name*" required name="" id="first-name">
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name : </label>
+            <input type="text" placeholder="Last Name*" name="" id="last-name">
+            </div>
+          
+        </div>
+        <div class="details">
+            Email :
+            <input type="email" placeholder="Email*" name="" id="email">
+            Password :
+            <input type="password" placeholder="Password*" name="" id="password">
+            Confirm Password :
+            <input type="password" placeholder="Enter same password*" name="" id="confirm-password">
+        </div>
+        <button class="button" id="button" onclick="submitForm()">Submit</button>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.text {
+  animation: magnify 1s infinite alternate;
+}
+@keyframes magnify {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(150px);
+  }
+}

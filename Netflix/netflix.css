@@ -1,0 +1,134 @@
+html,
+body {
+  margin: 0px;
+  font-family: roboto;
+  background-color: #222222;
+}
+.landing {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("bgnetflix.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px 0px 40px;
+}
+.nav-right {
+  padding: 0px 10px 0px 10px;
+  margin-right: 10px;
+}
+.signin-button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 7px 30px;
+  border-radius: 5px;
+  border: 2px solid #e50914;
+  margin-left: 30px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 6px 22px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding: 7px 30px;
+  background-color: grey;
+  color: black !important;
+  padding: 12px 30px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+  height: 70%;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  font-size: 67px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+}
+.mid {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+}
+.end {
+  font-size: 17px;
+  padding: 15px;
+}
+.start {
+  display: flex;
+  justify-content: space-around;
+}
+.email {
+  height: 60px;
+  width: 480px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 2px solid #fff;
+}
+.submit-button {
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #e50914;
+  color: #fff;
+  border: 2px solid #e50914;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  margin-top: 8px;
+  min-height: 63vh;
+  padding: 0px 150px;
+  color: #fff;
+}
+
+.content-head {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.content-text {
+  font-size: 26px;
+}
+.stickysharebutton {
+  background-color: #e50914;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  transform: rotate(90deg);
+  top: 25%;
+  left: -27px;
+}
