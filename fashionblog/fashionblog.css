@@ -1,0 +1,218 @@
+html,
+body {
+  margin: 0px;
+  background-color: lightgrey;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+}
+.logo > i,
+.search > i {
+  margin: 0px;
+  padding: 12px 16px;
+}
+.logo > i:hover,
+.search > i:hover {
+  color: #000;
+  background-color: lightgrey;
+}
+.brand-bar {
+  height: 170px;
+  text-align: center;
+  margin-top: 60px;
+}
+.brand {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: oswald;
+}
+.tagline {
+  font-size: 18px;
+  font-family: oswald;
+}
+.tagline-bold {
+  color: #fff;
+  background-color: #000;
+  padding: 5px;
+}
+.landing {
+  background-image: url("jane.jpg");
+  height: 1060px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center center;
+}
+.landing-hero {
+  margin-left: 20px;
+}
+.landing-heading {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-family: oswald;
+  color: #fff;
+}
+.landing-text {
+  font-size: 64px;
+  color: #fff;
+  font-family: oswald;
+}
+.hero-button {
+  font-size: 18px;
+  padding: 12px 24px;
+  font-family: oswald;
+  border: none;
+  background-color: grey;
+  text-transform: uppercase;
+}
+.hero-button:hover {
+  background-color: lightgrey;
+}
+.section-1 {
+  display: flex;
+  flex-direction: row;
+}
+.bottom-left {
+  height: 1020px;
+  max-width: 60%;
+  padding: 12px 24px;
+  margin: 16px;
+  background-color: #fff;
+}
+.hero {
+  text-align: center;
+}
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 0px;
+  font-family: oswald;
+}
+.heading-text {
+  font-family: oswald;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.text-color {
+  color: grey;
+}
+.girl-hat {
+  padding: 16px 0px;
+}
+.details {
+  font-size: 16px;
+  font-family: open sans;
+}
+.bottom-right {
+  width: 35%;
+  display: inline;
+  padding: 12px 24px;
+  margin: 5px;
+}
+.block-right-1 {
+  background-color: #000;
+}
+.img-section {
+  margin-bottom: 0px;
+}
+.description {
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+  margin-top: 0px;
+}
+.title-head {
+  font-size: 20px;
+  font-family: oswald;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.title-body {
+  font-size: 15px;
+  padding: 15px 0px;
+  font-family: open sans;
+}
+.block-right-2 {
+  font-size: 20px;
+  font-family: oswald;
+  background-color: lightgrey;
+  color: #000;
+  margin: 30px 0px;
+}
+.b2-title {
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.b2-div-1 {
+  display: flex;
+  padding: 8px;
+  margin-bottom: 2px;
+  background-color: #fff;
+}
+.b2-div-1:hover {
+  background-color: lightgrey;
+}
+.b2-div-text {
+  margin-left: 20px;
+  font-family: open sans;
+  margin-top: 5px;
+}
+.b2-div-head {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.bottom-manage {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-left-like {
+  border: 2px solid grey;
+  border-radius: 3px;
+  width: 80px;
+  margin-top: 40px;
+}
+.bottom-left-like:hover {
+  background-color: grey;
+}
+.like-box {
+  font-size: 15px;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+.bottom-right-reply {
+  border: 2px solid grey;
+  border-radius: 3px;
+  width: 118px;
+
+  margin-top: 40px;
+  font-family: open sans;
+  font-size: 15px;
+  border: none;
+}
+.reply-box {
+  padding: 10px 16px;
+  background-color: #000;
+}
+.bottom-right-text {
+  font-size: 15px;
+  font-family: open sans;
+  font-weight: bold;
+
+  color: #fff;
+}
+.bottom-right-number-reply {
+  background-color: #fff;
+  padding: 1px 4px;
+  margin-left: 5px;
+}
+.reply-box:hover {
+  background-color: grey;
+}
