@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Corousal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          id="top"
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100"
+            height="500px"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100"
+            height="500px"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100"
+            height="500px"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container p-5">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card-image m-3">
+            <img
+              height="100px"
+              width="100px"
+              style="border-radius: 50%"
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="card-heading m-3"><h1>Heading</h1></div>
+          <div class="card-text m-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+            delectus dignissimos. Ratione neque at voluptatem excepturi hic
+            temporibus architecto nemo eum repudiandae, vel exercitationem est!
+            Tempora neque accusantium ad eum.
+          </div>
+          <div class="card-button">
+            <button class="btn btn-secondary">Find Details</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-image m-3">
+            <img
+              height="100px"
+              width="100px"
+              style="border-radius: 50%"
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="card-heading m-3"><h1>Heading</h1></div>
+          <div class="card-text m-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+            delectus dignissimos. Ratione neque at voluptatem excepturi hic
+            temporibus architecto nemo eum repudiandae, vel exercitationem est!
+            Tempora neque accusantium ad eum.
+          </div>
+          <div class="card-button">
+            <button class="btn btn-secondary">Find Details</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-image m-3">
+            <img
+              height="100px"
+              width="100px"
+              style="border-radius: 50%"
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="card-heading m-3"><h1>Heading</h1></div>
+          <div class="card-text m-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+            delectus dignissimos. Ratione neque at voluptatem excepturi hic
+            temporibus architecto nemo eum repudiandae, vel exercitationem est!
+            Tempora neque accusantium ad eum.
+          </div>
+          <div class="card-button">
+            <button class="btn btn-secondary">Find Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-5">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-8">
+          <div class="display-4 text-secondary font-weight-bold">
+            First featurette heading. It'll blow your mind.
+          </div>
+          <div class="text-secondary">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+            ligula porta felis euismod semper. Praesent commodo cursus magna,
+            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+            commodo.
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img
+            class="img-fluid"
+            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt=""
+            height="500px"
+            width="500px"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr />
+    </div>
+    <footer class="container p-3 pt-5 mt-5 mb-5 d-flex justify-content-between">
+      <div class="left">
+        © 2017-2018 Company, Inc. <a href="/">Privacy</a> <a href="/">Terms</a>
+      </div>
+      <div class="right">
+        <a href="#top">Back To Top</a>
+      </div>
+    </footer>
+  </body>
+</html>
