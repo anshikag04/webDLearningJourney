@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0px;
-  background-color: lightgrey;
+  background-color: #f1f1f1;
 }
 nav {
   display: flex;
@@ -21,12 +21,14 @@ nav {
 }
 .brand-bar {
   height: 170px;
+
   text-align: center;
   margin-top: 60px;
 }
 .brand {
   font-size: 48px;
   font-weight: bold;
+
   font-family: oswald;
 }
 .tagline {
@@ -105,7 +107,7 @@ nav {
 }
 .details {
   font-size: 16px;
-  font-family: open sans;
+  font-family: "open sans";
 }
 .bottom-right {
   width: 35%;
@@ -135,7 +137,7 @@ nav {
 .title-body {
   font-size: 15px;
   padding: 15px 0px;
-  font-family: open sans;
+  font-family: "open sans";
 }
 .block-right-2 {
   font-size: 20px;
@@ -162,7 +164,7 @@ nav {
 }
 .b2-div-text {
   margin-left: 20px;
-  font-family: open sans;
+  font-family: "open sans";
   margin-top: 5px;
 }
 .b2-div-head {
@@ -193,7 +195,7 @@ nav {
   width: 118px;
 
   margin-top: 40px;
-  font-family: open sans;
+  font-family: "open sans";
   font-size: 15px;
   border: none;
 }
@@ -203,7 +205,7 @@ nav {
 }
 .bottom-right-text {
   font-size: 15px;
-  font-family: open sans;
+  font-family: "open sans";
   font-weight: bold;
 
   color: #fff;
@@ -215,4 +217,36 @@ nav {
 }
 .reply-box:hover {
   background-color: grey;
+}
+.footer {
+  background-color: #616161;
+  height: 260px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.footer-left {
+  padding: 100px 40px 0px 40px;
+}
+.footer-button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-family: "open sans";
+  border: none;
+}
+.fa-arrow-up {
+  margin-right: 10px;
+}
+.footer-text {
+  font-size: 15px;
+  font-family: "open sans";
+  margin-top: 20px;
+}
+.footer-text-underline {
+  text-decoration: underline;
+}
+.footer-button:hover {
+  background-color: lightgrey;
+  color: #000;
 }
