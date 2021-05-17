@@ -1,6 +1,7 @@
 import {Component} from "react"
 import Message from "../Message"
 class Navbar extends Component {
+    
     constructor(props) {
         super(props) 
         this.props = props

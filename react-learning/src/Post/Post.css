@@ -1,0 +1,27 @@
+body {
+  background-color: lightgrey;
+}
+.card {
+  min-height: 70px;
+  padding: 20px 40px;
+  width: 400px;
+  box-shadow: 2px;
+  background-color: #fff;
+  color: grey;
+  border: 2px solid grey;
+  margin: 30px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-follow {
+  border: 1px solid #51a7cb;
+  color: #51a7cb;
+  border-radius: 2px;
+}
+.body {
+  color: black;
+  padding: 20px 0px;
+}
