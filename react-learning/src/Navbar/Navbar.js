@@ -1,25 +1,21 @@
-import {Component} from "react"
+import { Component } from "react"
 import Message from "../Message"
 class Navbar extends Component {
-    
+
     constructor(props) {
-        super(props) 
+        super(props)
         this.props = props
         this.state = {
-            x:70
+            name: ''
         }
     }
-    decrement =  ()=>{
-        this.setState({x: this.state.x-1})
-    }
-    render() { 
-        return(
-            
+    render() {
+        return (
+
             <div>
-                <button onClick={this.decrement}>Decrement</button>
-                <h1>{this.state.x}</h1>
-                { this.state.x<70 ? <Message text="happy"/> : <Message text="sad"/>}
-                <button onClick={() => {this.setState({x: this.state.x+1})}}>Increment</button>
+            ENTER YOUR NAME:
+                <input type="text" value={this.state.name} onChange={(event) =>{this.setState({name:event.target.value})} }/>
+                Your Name Is:{this.state.name}
             </div>
         )
     }
