@@ -1,0 +1,13 @@
+.game_comp {
+  padding-top: 150px;
+  margin: 5%;
+}
+
+.box {
+  text-align: center;
+  border: 2px solid #000;
+  padding: 20px;
+  width: 150px;
+  display: inline-block;
+  margin: 20px;
+}

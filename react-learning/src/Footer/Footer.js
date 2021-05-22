@@ -1,12 +1,11 @@
-import { useState } from "react"
+import useLocalStorage from '../Hooks/useLocalStorage'
 
 function Footer() {
-    let [count, setCount] = useState(15)
-    return(
+    let [value, setValue] = useLocalStorage('')
+    return (
         <div>
-            <button onClick={() =>{setCount(count-1)}}>DECREASE</button>
-            Value : {count} 
-            <button onClick={() =>{setCount(count+1)}}>INCREASE</button>
+            <input type="text" onChange={(event) => { setValue(event.target.value) }} />
+            Value: {value}
         </div>
     )
 }
